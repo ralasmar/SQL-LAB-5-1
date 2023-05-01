@@ -78,3 +78,4 @@ SELECT *
 FROM person
 WHERE favorite_color IN ('yellow', 'purple')
 
+
