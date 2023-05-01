@@ -42,7 +42,7 @@ FROM invoice
 --update the invoice with an invoice_id of 5 to have a total order amount of 24
 UPDATE invoice
 SET total = 24
-WHERE invoice_id = 2
+WHERE invoice_id = 5
 
 --delete the invoice with an invoice_id of 1 //note, can't delete a row that has relation to a row from a different table in the database
 DELETE 
